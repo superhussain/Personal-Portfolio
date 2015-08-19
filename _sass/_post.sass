@@ -37,12 +37,83 @@
         text-decoration: none
         float: left
         left: 0px
+
     .post-content
+      font-family: "Source Sans Pro",sans-serif
+
+      ul, ol
+        margin-left: 30px
+        line-height: 1.5
+        li a
+          color: #4fa1db
+          text-decoration: none
+          transition: all .15s ease-in-out
+          &:hover
+            color: #216da3
+            text-decoration: underline
+
+      pre
+        text-align: start
+        border: 0
+        padding: 10px 20px
+        border-radius: 5px
+        display: block
+        margin: 0 0 10.5px
+        font-size: 14px
+        line-height: 1.45
+        word-break: break-all
+        word-wrap: break-word
+        color: #333
+        background-color: rgba(128,128,128,0.05)
+        border: 1px solid rgba(128,128,128,0.075)
+        border-radius: 4px
+        code
+          background-color: transparent
+
+      code
+        font-family: "Source Code Pro",monospace
+        font-size: .9em
+        padding: 2px 4px
+        color: #3f3f3f
+        background-color: rgba(128,128,128,0.075)
+        white-space: normal
+        border-radius: 4px
+
+      hr
+        margin: 2em 0
+        border: 0
+        border-top: 1px solid rgba(128, 128, 128, 0.1)
+
+      blockquote
+        border-left-width: 10px
+        background-color: rgba(128,128,128,0.05)
+        border-top-right-radius: 5px
+        border-bottom-right-radius: 5px
+        padding: 20px 20px 8px
+        border-left-color: rgba(128, 128, 128, 0.1)
+        border-left-style: solid
+
+      p, pre, pre.prettyprint, blockquote
+        margin: 0 0 1.1em
+
+      h3
+        font-size: 30px
+        font-weight: 300
+        text-align: start
+        margin: 1.4em 0
+
       p
-        font-family: "Source Sans Pro", sans-serif
         font-size: 18px
         margin-bottom: 15px
         color: #666
+
+        a
+          color: #4fa1db
+          text-decoration: none
+          transition: all .15s ease-in-out
+          &:hover
+            color: #216da3
+            text-decoration: underline
 
         img
           max-width: 100%

@@ -1,45 +1,48 @@
+$(function () {
+
 /* Times Background */
 
 var currentTime = new Date().getHours();
 if (6 <= currentTime && currentTime < 9) {
-    if (document.body) {
-        $("body").css({"background": "url(/img/times/morning.png) no-repeat center center fixed","background-size": "cover"});
-    }
-}
-else if (9 <= currentTime && currentTime < 12) {
-    if (document.body) {
-        $("body").css({"background": "url(/img/times/late-morning.png) no-repeat center center fixed","background-size": "cover"});
-    }
-}
-else if (12 <= currentTime && currentTime < 15) {
-    if (document.body) {
-        $("body").css({"background": "url(/img/times/afternoon.png) no-repeat center center fixed","background-size": "cover"});
-    }
-}
-else if (15 <= currentTime && currentTime < 18) {
-    if (document.body) {
-        $("body").css({"background": "url(/img/times/late-afternoon.png) no-repeat center center fixed","background-size": "cover"});
-    }
-}
-else if (18 <= currentTime && currentTime < 21) {
-    if (document.body) {
-        $("body").css({"background": "url(/img/times/evening.png) no-repeat center center fixed","background-size": "cover"});
-    }
-}
-else if (21 <= currentTime && currentTime < 0) {
-    if (document.body) {
-        $("body").css({"background": "url(/img/times/late-evening.png) no-repeat center center fixed","background-size": "cover"});
-    }
-}
-else if (0 <= currentTime && currentTime < 3) {
-    if (document.body) {
-        $("body").css({"background": "url(/img/times/night.png) no-repeat center center fixed","background-size": "cover"});
-    }
-}
-else {
-    if (document.body) {
-        $("body").css({"background": "url(/img/times/late-night.png) no-repeat center center fixed","background-size": "cover"});
-    }
+  $("body").css({
+    "background": "url(/img/times/morning.png) no-repeat center center fixed",
+    "background-size": "cover"
+  });
+} else if (9 <= currentTime && currentTime < 12) {
+  $("body").css({
+    "background": "url(/img/times/late-morning.png) no-repeat center center fixed",
+    "background-size": "cover"
+  });
+} else if (12 <= currentTime && currentTime < 15) {
+  $("body").css({
+    "background": "url(/img/times/afternoon.png) no-repeat center center fixed",
+    "background-size": "cover"
+  });
+} else if (15 <= currentTime && currentTime < 18) {
+  $("body").css({
+    "background": "url(/img/times/late-afternoon.png) no-repeat center center fixed",
+    "background-size": "cover"
+  });
+} else if (18 <= currentTime && currentTime < 21) {
+  $("body").css({
+    "background": "url(/img/times/evening.png) no-repeat center center fixed",
+    "background-size": "cover"
+  });
+} else if (21 <= currentTime && currentTime < 0) {
+  $("body").css({
+    "background": "url(/img/times/late-evening.png) no-repeat center center fixed",
+    "background-size": "cover"
+  });
+} else if (0 <= currentTime && currentTime < 3) {
+  $("body").css({
+    "background": "url(/img/times/night.png) no-repeat center center fixed",
+    "background-size": "cover"
+  });
+} else {
+  $("body").css({
+    "background": "url(/img/times/late-night.png) no-repeat center center fixed",
+    "background-size": "cover"
+  });
 }
 
 /* Quotes */
@@ -74,26 +77,46 @@ var indexNum = Math.floor(Math.random() * sentences.length);
 var rand = sentences[indexNum];
 $('#quotes').text(rand);
 
-$('#shroomNext').on('click', function(){
-    indexNum++;
-    if(indexNum == sentences.length){
-        indexNum = 0;
-    }
-    rand = sentences[indexNum];
-    $('#quotes').text(rand);
+
+// Shrooms
+
+$('#shroomNext').on('click', function () {
+  indexNum++;
+  if (indexNum == sentences.length) {
+    indexNum = 0;
+  }
+  rand = sentences[indexNum];
+  $('#quotes').text(rand);
 });
 
-$('#shroomPrev').on('click', function(){
-    indexNum--;
-    if(indexNum == 0){
-        indexNum = sentences.length;
-    }
-    rand = sentences[indexNum];
-    $('#quotes').text(rand);
+$('#shroomPrev').on('click', function () {
+  indexNum--;
+  if (indexNum == 0) {
+    indexNum = sentences.length;
+  }
+  rand = sentences[indexNum];
+  $('#quotes').text(rand);
 });
 
-$('#shroomRand').on('click', function(){
-    indexNum = Math.floor(Math.random() * sentences.length);
-    rand = sentences[indexNum];
-    $('#quotes').text(rand);
+$('#shroomRand').on('click', function () {
+  indexNum = Math.floor(Math.random() * sentences.length);
+  rand = sentences[indexNum];
+  $('#quotes').text(rand);
+});
+
+
+// remove border bottom
+
+function navBottomBorder() {
+  if ($("body").width() < 683) {
+    $(".navbar a:last-child .item").css('border-bottom', 'none');
+  }
+}
+
+window.onresize = function() {
+  navBottomBorder();
+}
+
+navBottomBorder();
+
 });
