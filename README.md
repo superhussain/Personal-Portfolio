@@ -1,5 +1,12 @@
-# Personal Portfolio - [www.hussainabbas.com](http://hussainabbas.com)
-Here is my personal portfolio. It is based on Jekyll to handle the Content Management System for the blog section. 
+# Personal Portfolio #
+## [www.hussainabbas.com](http://hussainabbas.com) ##
+
+### The Tools ###
+
+ - [Jekyll](http://jekyllrb.com)
+ - [SASS](http://sass-lang.com/)
+ - [Bourbon](http://bourbon.io)
+ - [jQuery](https://jquery.com/)
 
 ### Usage and Installation ###
 
