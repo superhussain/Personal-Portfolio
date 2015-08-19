@@ -1,3 +1,47 @@
+/* Times Background */
+
+var currentTime = new Date().getHours();
+if (6 <= currentTime && currentTime < 9) {
+    if (document.body) {
+        $("body").css({"background": "url(/img/times/morning.png) no-repeat center center fixed","background-size": "cover"});
+    }
+}
+else if (9 <= currentTime && currentTime < 12) {
+    if (document.body) {
+        $("body").css({"background": "url(/img/times/late-morning.png) no-repeat center center fixed","background-size": "cover"});
+    }
+}
+else if (12 <= currentTime && currentTime < 15) {
+    if (document.body) {
+        $("body").css({"background": "url(/img/times/afternoon.png) no-repeat center center fixed","background-size": "cover"});
+    }
+}
+else if (15 <= currentTime && currentTime < 18) {
+    if (document.body) {
+        $("body").css({"background": "url(/img/times/late-afternoon.png) no-repeat center center fixed","background-size": "cover"});
+    }
+}
+else if (18 <= currentTime && currentTime < 21) {
+    if (document.body) {
+        $("body").css({"background": "url(/img/times/evening.png) no-repeat center center fixed","background-size": "cover"});
+    }
+}
+else if (21 <= currentTime && currentTime < 0) {
+    if (document.body) {
+        $("body").css({"background": "url(/img/times/late-evening.png) no-repeat center center fixed","background-size": "cover"});
+    }
+}
+else if (0 <= currentTime && currentTime < 3) {
+    if (document.body) {
+        $("body").css({"background": "url(/img/times/night.png) no-repeat center center fixed","background-size": "cover"});
+    }
+}
+else {
+    if (document.body) {
+        $("body").css({"background": "url(/img/times/late-night.png) no-repeat center center fixed","background-size": "cover"});
+    }
+}
+
 /* Quotes */
 
 var sentences = [

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+  <!--    {% include header.html %}-->
+
+
+  <div class="container">
+
+    {% include sidebar.html %}
+
+    <div class="tab-content">
+
+      {% include tab-home.html %}
+      {% include tab-profile.html %}
+      {% include tab-portfolio.html %}
+      {% include tab-playground.html %}
+      {% include tab-contact.html %}
+
+      {{ content }}
+
+    </div>
+
+  </div>
+
+
+  {% include footer.html %}
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <script src="js/tabs.js"></script>
+
+  <script>
+    $('#myTab a').click(function (e) {
+      e.preventDefault();
+      $(this).tab('show');
+      $("li.item").removeClass("active");
+      $(this).children().addClass("active");
+
+    })
+  </script>
+
+</body>
+
+</html>

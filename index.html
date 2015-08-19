@@ -1,207 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+---
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Hussain Abbas' Portfolio">
-    <meta name="author" content="Hussain Abbas">
-    <link rel="shortcut icon" href="assets/img/favicon.png">
+<div class="tab-pane blog-tab home" id="blog">
+  <h4><a href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="fa fa-rss-square"></i></a> Blog</h4>
+  <hr>
 
-    <title>Hussain Abbas | Dabbler of Everything Technology</title>
-
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
-    <link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
-
-</head>
-
-<body>
-
-    <div class="container">
-
-        <div class="sidebar">
-            <div class="avatar"><img id="avatar-img" src="assets/img/avatar.jpg"></div>
-            <ul class="navbar" id="myTab">
-                <a href="#home">
-                    <li class="item active">Home</li>
-                </a>
-                <a href="#profile">
-                    <li class="item">Profile</li>
-                </a>
-                <a href="#portfolio">
-                    <li class="item">Portfolio</li>
-                </a>
-                <a href="#playground">
-                    <li class="item">Playground</li>
-                </a>
-                <a href="#contact">
-                    <li class="item">Contact</li>
-                </a>
-            </ul>
+  <div class="post-list">
+    {% for post in site.posts %}
+      <div class="view view-first">
+        <img src="img/post/cover/{{post.cover}}" />
+        <div class="mask">
+          <h2>{{ post.title }}</h2>
+          <p class="post-date">{{ post.date | date: "%b %-d, %Y" }}</p>
+          <p>{{ post.description }}</p>
+          <a href="{{ post.url | prepend: site.baseurl }}" class="info">Read Post</a>
         </div>
+      </div>
+    {% endfor %}
+  </div>
 
-        <div class="tab-content">
-
-            <div class="tab-pane home-tab active" id="home">
-                <h1 class="head">Hussain Abbas</h1>
-                <h3 class="subhead">Dabbler of Everything Technology</h3>
-
-                <hr>
-
-                <p>Hello, my name is Hussain Abbas. I am a curious university student with a <em>burning</em> passion for technology!</p>
-
-                <p>I dabble in hardware, software and design. The problem with me is that I cannot focus on one particular area of interest at one time. Within the average day, I go from developing an app to designing a website and by the end of the day, I have cables and computer parts all over the place. If you wish to learn a little bit more about the circuitry that makes up the one known as Hussain, click on one of the other tabs on this page.</p>
-
-                <hr>
-
-                <div id="quotes"></div>
-                <div class="shrooms">
-                    <img src="assets/img/shroomgreen.png" id="shroomPrev">
-                    <img src="assets/img/shroomred.png" id="shroomRand">
-                    <img src="assets/img/shroomgreen.png" id="shroomNext">
-                </div>
-            </div>
-
-            <div class="tab-pane profile-tab" id="profile">
-                <div class="wrap skills-wrap">
-                    <h4><i class="fa fa-tags"></i> Skills</h4>
-                    <hr>
-                    <p class="skills">Web Design | Web Development | Graphic Design</p>
-                    <p class="skills">HTML5 | CSS3 | JavaScript | PHP | Objective-C | C++ | Java</p>
-                </div>
-                <div class="wrap work-wrap">
-                    <h4><i class="fa fa-briefcase"></i> Work</h4>
-                    <hr>
-                    <p class="work"><a href="http://islamicreliefcanada.org" target="_blank"><span data-title="Islamic Relief @ YorkU">Islamic Relief @ YorkU</span></a> | July 2015 - Present</p>
-                    <p class="work"><a href="http://yorku.thaqalayn.org" target="_blank"><span data-title="TMA @ YorkU">TMA @ YorkU</span></a> | July 2014 - Present</p>
-                    <p class="work"><a href="http://netosphere.ca" target="_blank"><span data-title="Netosphere">Netosphere</span></a> | November 2013 - January 2015</p>
-                    <p class="work"><a href="http://aplustoners.com" target="_blank"><span data-title="A+ Toners.com">A+ Toners.com</span></a> | March 2013 - Present</p>
-                    <p class="work"><a href="http://plexxis.com" target="_blank"><span data-title="Plexxis">Plexxis</span></a> | September 2012 - August 2014</p>
-                    <p class="work"><a href="http://bl4ck0ut.com" target="_blank"><span data-title="Bl4ck0ut">Bl4ck0ut</span></a> | January 2012 - January 2015</p>
-                </div>
-                <div class=" wrap education-wrap">
-                    <h4><i class="fa fa-file-text"></i> Education</h4>
-                    <hr>
-                    <p class="education">BAS ITEC | York University</p>
-                </div>
-            </div>
-
-            <div class="tab-pane portfolio-tab" id="portfolio">
-                <h4><i class="fa fa-briefcase"></i> Portfolio</h4>
-                <hr>
-                <div class="row">
-                    <div class="view view-first">
-                        <img src="assets/img/apt.png" />
-                        <div class="mask">
-                            <h2>A+ Toners.com</h2>
-                            <p>E-commerce site for buying printer cartridges.</p>
-                            <a href="http://aplustoners.com" target="_blank" class="info">Visit Site</a>
-                        </div>
-                    </div>
-                    <div class="view view-first">
-                        <img src="assets/img/plex.png" />
-                        <div class="mask">
-                            <h2>Employee Directory</h2>
-                            <p>Staff directory built using Topcoat and Backbonejs.</p>
-                            <a href="http://hussainabbas.com/plexxis" target="_blank" class="info">Visit Site</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="view view-first">
-                        <img src="assets/img/b0.png" />
-                        <div class="mask">
-                            <h2>Bl4ck0ut Project</h2>
-                            <p>Custom firmware for older iDevices to bring back speed and functionality.</p>
-                            <a href="http://bl4ck0ut.com" target="_blank" class="info">Visit Site</a>
-                        </div>
-                    </div>
-                    <div class="view view-first">
-                        <img src="assets/img/tma.png" />
-                        <div class="mask">
-                            <h2>TMA @ YorkU</h2>
-                            <p>Student Group Website designed on WordPress.</p>
-                            <a href="http://yorku.thaqalayn.org" target="_blank" class="info">Visit Site</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="tab-pane playground-tab" id="playground">
-                <h4><i class="fa fa-gamepad"></i> Playground</h4>
-                <hr>
-                <div class="row">
-                    <div class="view view-first">
-                        <img src="assets/img/flap.png" />
-                        <div class="mask">
-                            <h2>flapemon</h2>
-                            <p>Flappy Bird alternative based using Pokémon characters.</p>
-                            <a href="http://hussainabbas.com/flapemon" target="_blank" class="info">Visit Site</a>
-                        </div>
-                    </div>
-                    <div class="view view-first">
-                        <img src="assets/img/w00t.png" />
-                        <div class="mask">
-                            <h2>w00t w00t</h2>
-                            <p>Two words... DANCE PARTY!!</p>
-                            <a href="http://hussainabbas.com/w00t" target="_blank" class="info">Visit Site</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="tab-pane contact-tab" id="contact">
-                <div class="contact-wrap">
-                    <h3>Contact Information</h3>
-                    <hr>
-                    <p><i class="fa fa-globe"></i> <a href="http://hussainabbas.com" target="_blank"><span data-title="www.hussainabbas.com">www.hussainabbas.com</span></a></p>
-                    <p><i class="fa fa-envelope"></i> <a href="mailto:hussain@hussainabbas.com" target="_blank"><span data-title="hussain@hussainabbas.com">hussain@hussainabbas.com</span></a></p>
-                </div>
-                <div class="social-wrap">
-                    <h3>Social Links</h3>
-                    <hr>
-                    <div class="col">
-                        <p><i class="fa fa-facebook-square"></i> <a href="http://facebook.com/super45hussain" target="_blank"><span data-title="Hussain Abbas">Hussain Abbas</span></a></p>
-                        <p><i class="fa fa-twitter-square"></i> <a href="http://twitter.com/hussainabbas_" target="_blank"><span data-title="hussainabbas_">hussainabbas_</span></a></p>
-                        <p><i class="fa fa-instagram"></i> <a href="http://instagram.com/hussainabbas_" target="_blank"><span data-title="hussainabbas_">hussainabbas_</span></a></p>
-                    </div>
-                    <div class="col">
-                        <p><i class="fa fa-google-plus-square"></i> <a href="https://plus.google.com/110063941791369492554" target="_blank"><span data-title="Hussain Abbas">Hussain Abbas</span></a></p>
-                        <p><i class="fa fa-linkedin-square"></i> <a href="https://ca.linkedin.com/in/superhussain" target="_blank"><span data-title="Hussain Abbas">Hussain Abbas</span></a></p>
-                        <p><i class="fa fa-skype"></i> <a href="skype:super_hussain?action" target="_blank"><span data-title="Super_Hussain">Super_Hussain</span></a></p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-
-    <footer>
-        <!--
-            <i class="icon" >&#128152;</i>
-            <h3 style="display: block;">Made with Love</h3>
--->
-        <a href="http://hussainabbas.com"><h3>www.hussainabbas.com</h3></a>
-    </footer>
-
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/scripts.js"></script>
-    <script src="assets/js/tabs.js"></script>
-
-    <script>
-        $('#myTab a').click(function (e) {
-            e.preventDefault();
-            $(this).tab('show');
-            $("li.item").removeClass("active");
-            $(this).children().addClass("active");
-
-        })
-    </script>
-
-</body>
-
-</html>
+</div>
