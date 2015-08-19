@@ -4,6 +4,7 @@
     width: auto
     height: auto
     box-shadow: none
+    clear: both
   .sidebar
     position: relative
     width: 90%
@@ -32,10 +33,16 @@
     position: relative
     overflow: auto
     margin-left: 0px
-    padding: 5% 5% 10% 5%
+    padding: 5% 5% 5% 5%
     width: 80%
     margin: 0 auto
-    display: table
+    height: 75vh
+
+    &:before, &:after
+      content: ' '
+      display: table
+    &:after
+      clear: both
 
     .tab-pane
       position: absolute
@@ -58,3 +65,5 @@
       width: 65%
     .navbar
       width: 35%
+  .tab-content
+    height: 100vh
