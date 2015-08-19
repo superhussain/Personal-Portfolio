@@ -32,11 +32,25 @@
     position: relative
     overflow: auto
     margin-left: 0px
-    padding: 5%
+    padding: 5% 5% 10% 5%
     width: 80%
     margin: 0 auto
-    height: auto
-    min-height: 0px
+    display: table
+
+    .tab-pane
+      position: absolute
+      width: 88%
+
+  .tab-content > .tab-pane, .pill-content > .pill-pane
+    opacity: 0
+    pointer-events: none
+    transform: translate(0, -200px)
+    transition: all 500ms cubic-bezier(0.15, 0.25, 0, 1.48)
+
+  .tab-content > .active, .pill-content > .active
+    opacity: 1
+    transform: translate(0,0)
+    pointer-events: all
 
 @media (max-width: 535px)
   .sidebar
