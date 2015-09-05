@@ -3,11 +3,15 @@ layout: default
 ---
 
 <div class="tab-pane blog-tab home" id="blog">
-  <h4><a href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="fa fa-rss-square"></i></a> Blog</h4>
+  <h4>
+    <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+    <i class="fa fa-rss-square"></i></a> Blog
+    <span class="blog-more"><a href="blog"><span data-title="&raquo; View More">&raquo; View More</span></a></span>
+  </h4>
   <hr>
 
   <div class="post-list">
-    {% for post in site.posts %}
+    {% for post in site.posts limit:9 %}
       <div class="view view-first">
         <img src="img/post/cover/{{post.cover}}" />
         <div class="mask">
