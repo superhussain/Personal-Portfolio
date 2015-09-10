@@ -30,7 +30,7 @@ Doing this well, you will save a **minimum** of a month of time a year. Yes, tha
 >- 16 hours becomes 20 per day
 >- That’s 28 hours a week
 >- 336 per year — 42 work days (month and 1/2)
->- I call this new month “Slumbtember”
+>- I call this new month “Slumbtember”<br>
 >--- [Travis Neilson](http://www.travandlos.com/13)
 
 ----------
