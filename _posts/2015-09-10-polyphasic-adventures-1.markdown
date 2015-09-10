@@ -7,11 +7,11 @@ comments: true
 date:   2015-09-10 07:00:00
 cover: "polyphasic-1.jpg"
 ---
-If you haven't been following my blog, last week I announced I will be trying a new sleep routine called polyphasic sleep. If you haven't been following or forgot, let me give you a better understanding of what it is and what it hopes to accomplish.
+If you haven't been following my blog, last week I announced I will be trying a new sleep routine called polyphasic sleep. Before I go on about my experience, let me give you a better understanding of what it is and what it hopes to accomplish.
 
-Ever crawled into bed at the end of the day and wished you were able to finish the tasks you had planned for the day? Ever wished you were able to learn this new programming language or be able to work on that app you always wanted to make but just couldn't find the time?
+Ever crawled into bed at the end of the day and wish you were able to finish the tasks you had planned for the day? Ever wish you were able to learn this new programming language or be able to work on that app you always wanted to make but just couldn't find the time?
 
-I'm with you mate. The biggest constraint for me in life has been the lack of time. Trust is, the time is there, we just don't take advantage of it.
+I'm with you mate. The biggest constraint for me in life has been the lack of time. Truth is, the time is there, we just don't take advantage of it.
 
 People measure your life by the amount of years you've lived, I think differently. I believe life should be measured by every minute, second, millisecond, microsecond, nanosecond, and even every **picosecond**. It doesn't mean anything if you live for 100 years and accomplish nothing. What gives your life value is what you leave behind.
 
@@ -21,16 +21,16 @@ This reminded me of a great video by Gabriel Iglesias about his take on life...
 
 So what is this "Polly want a cracker" anyway? Well, let's dissect it! The prefix "**poly-**" comes from the Greek word "polus" which means "much" or "many". Then "**-phasic**" is from "phase" which refers to segments. Put that together and you get "many segments". Yay, we know basic English!
 
-Polyphasic sleep is when you have multiple segments of sleep periods throughout the day. Now we must ask the question "why"? Okay, let's think about it like this, when you eat food, do you eat it all at one time or break up your intake throughout the day? I believe for most of us it is the latter. If we were to eat food all at one time, we would use that energy throughout the day and slowly deplete that limited supply of energy you have. If you run out, it will end up harming you. You would also tend to **over-eat** because your body uses calories even if you don't move around.
+Polyphasic sleep is when you have multiple segments of sleep periods throughout the day. Now we must ask the question "why"? Okay, let's think about it like this, when you eat food, do you eat it all at one time or break up your intake throughout the day? I believe for most of us it is the latter. If we were to eat food all at one time, we would use that energy throughout the day and slowly deplete that limited supply of energy you have. If you run out, it will end up harming you. You would also tend to **over-eat** because your body uses calories even if you don't really use it.
 
-If we take this concept to sleep, we're essentially over-sleeping for the same reason in eating. This is not very efficient at all. That's where polyphasic sleep comes in! You use the energy you get from sleep only when you need. Because we're spreading sleep apart, we don't need as much total sleep time and in the end save plenty of valuable time that we can use in other aspects of our life.
+If we take this concept to sleep, we're essentially over-sleeping for the same reason in eating. This is not very efficient at all. That's where polyphasic sleep comes in! You use the energy you get from sleep only when you need it. If we were to spread sleep apart, we don't need as much total sleep time and in the end save plenty of valuable time that we can use in other aspects of our life.
 
 Doing this well, you will save a **minimum** of a month of time a year. Yes, that's correct. One. Full. Month.
 
 >- 16 hours becomes 20 per day
 >- That’s 28 hours a week
 >- 336 per year — 42 work days (month and 1/2)
->- I call this new month “Slumbtember”<br>
+>- I call this new month “Slumbtember”
 >--- [Travis Neilson](http://www.travandlos.com/13)
 
 ----------
@@ -55,14 +55,15 @@ I came across [this study](http://sidsavara.com/personal-productivity/why-3-of-h
 > In 1989, the interviewers again interviewed the graduates of that class.  You can guess the results:
 >
 > - The 13% of the class who had goals were earning, on average, twice as much as the 84 percent who had no goals at all.
+> - Even more staggering – the three percent who had clear, written goals were earning, on average, ten times as much as the other 97 percent put together.
 
-The lesson here is that you must know your objective before you can hope to be successful.
+The lesson here is that you must know your objectives before you can hope to be successful.
 
 ----------
 
 ### My Experience ###
 
-When I first heard about polyphasic sleep I was super excited to try it out so that I can do the stuff I normally wouldn't be able to during the day. Last week when I wrote the [Week Zero post](http://hussainabbas.com/blog/polyphasic-adventures-0) it was my first day doing this routine and I felt amazing! That day I felt like I had so much energy that I randomly threw punches into the air (and I don't regret it for a second). Little did I know that was the best part of the whole week.
+When I first heard about polyphasic sleep I was super excited to try it out so that I can do the stuff I normally wouldn't be able to during the day. Last week when I wrote the [Week Zero post](http://hussainabbas.com/blog/polyphasic-adventures-0) it was my first day doing this routine and I felt amazing! That day I felt like I had so much energy that I randomly threw punches into the air (and I don't regret it for a second). Little did I know that was the best part of the whole week...
 
 ----------
 
@@ -70,7 +71,7 @@ When I first heard about polyphasic sleep I was super excited to try it out so t
 
 The. Best. Day. Ever. I felt incredible and went right into the routine I had planned. Also to help fall asleep easier and faster, I slept listening to binaural beats and isochronic tones from two different apps: [Binaural Beats Therapy](https://play.google.com/store/apps/details?id=com.ihunda.android.binauralbeat&hl=en) and [pzizz](https://play.google.com/store/apps/details?id=com.pzizz.android&hl=en). Both are great so try both and see what you like!
 
-`  Total: 4 hours of sleep.`
+`Total: 4 hours of sleep.`
 
 ----------
 
@@ -78,7 +79,7 @@ The. Best. Day. Ever. I felt incredible and went right into the routine I had pl
 
 Definitely not as nice as the previous day. I felt great after my 3 hour core nap, but come mid-day around 1:00 PM I felt really tired even after my 20 minute naps. I also had a grueling migraine which really affected my ability to work on the things I had planned. When it came time to do my last 20 minute nap, I ended up sleeping for about an hour. Two days in a row. Definitely not proud of this.
 
-`  Total: 5 hours of sleep each.`
+`Total: 5 hours of sleep each.`
 
 ----------
 
@@ -86,7 +87,7 @@ Definitely not as nice as the previous day. I felt great after my 3 hour core na
 
 Getting better... Continued using the binaural beats and isochronic tones to help fall asleep. I noticed I did have a little more energy and because of this it became harder to fall asleep during the crucial 20 minute naps. I read online that naps don't necessarily require you to be in a sleeping state, rather in a relaxed state that allows you to focus solely on your mind instead of your body. Knowing this made it easier because instead of trying to fall asleep, I focused on relaxing my body and after the nap was over I felt a lot better!
 
-`  Total: 4 hours of sleep.`
+`Total: 4 hours of sleep.`
 
 ----------
 
@@ -98,7 +99,7 @@ At this point I was also letting the routine adapt to my schedule, not the other
 
 Another thing to note was that during the 3 hour core nap, I woke up prematurely by about 45 minutes. I was going to go back to sleep but decided to just stay awake to see how it would affect my day. The result? It didn't! I felt just as I did the previous day.
 
-`  Total: 3h 15m of sleep.`
+`Total: 3h 15m of sleep.`
 
 ----------
 
