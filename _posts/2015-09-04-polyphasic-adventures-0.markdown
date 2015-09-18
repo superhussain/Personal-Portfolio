@@ -64,3 +64,11 @@ You are welcome to join me in my Polyphasic Adventures. If you have already, let
 Signing off,
 
 Hussain
+
+----------
+
+#### Polyphasic Adventures ####
+
+- [Week Zero - Discovery Week](http://hussainabbas.com/blog/polyphasic-adventures-0/)
+- [Week #1 - Intro Week](http://hussainabbas.com/blog/polyphasic-adventures-1/)
+- [Week #2 - Experiment Week](http://hussainabbas.com/blog/polyphasic-adventures-2)
