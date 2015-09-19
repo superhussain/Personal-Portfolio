@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "Snippets: CSS Grids"
+description: "Code Snippets: Simple CSS Grids"
+author: "Hussain"
+comments: true
+date:   2015-09-19 05:30:00
+cover: "css-grids.jpg"
+---
+While wasting my day away on Facebook, I came across a post on the [Hackathon Hackers](https://www.facebook.com/groups/hackathonhackers/) group. This person was asking how he can make a pretty simple grid system without having to rely on libraries like [Bootstrap](http://getbootstrap.com/) or [Foundation](http://foundation.zurb.com/). This was what he was looking for...
+
+![Grid](http://hussainabbas.com/img/post/css-grids/grid.jpg)
+
+Coming from years in the front-end, this was pretty simple for me to do so I decided I would make a pen for him so he could better understand how to do it himself. I honestly thought this was something many people already knew, but because it came up, I decided why not make a post about it?
+
+I quickly put the pen together in less than 10 minutes with basic styles and markup. To make it easy for me, I used SASS because that's what I'm used to. You can easily convert it to plain CSS using [this tool](http://sassmeister.com/).
+
+I used a mixture of floats and flexbox to accomplish this. First, I made a div with a class of `half` and gave that a width of 50%, floated it left, and gave it `position: relative` so that all the boxes inside the columns can be given proportional sizes. This was used for the two columns on the right and left. That is all I used floats for in this example.
+
+On the left column, I put in another div with a common class of `box` for styling of all boxes and a specific class of `box1`. In `box1`, I set a width of 100%, height of 100% of the viewport `100vh`, and a background color.
+
+On the right column, I needed to give it another class so that I can control it better with flexbox. In this new class I set `display: flex`, `flex-wrap: wrap`, and `height: 100vh` so that it can encompass all the boxes within the viewport.
+
+From there it's super simple! I created boxes with their own unique classes and assigned widths and heights in percentages. Since there are three rows in the right column, I set the height to 33.33% of all the boxes and varied the widths in their own unique classes and gave them each a different background color. Check out the results below.
+
+<p data-height="350" data-theme-id="19046" data-slug-hash="QjNVVO" data-default-tab="result" data-user="superhussain" class='codepen'>See the Pen <a href='http://codepen.io/superhussain/pen/QjNVVO/'>Simple grid</a> by Hussain Abbas (<a href='http://codepen.io/superhussain'>@superhussain</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+Simple, no? Feel free to take this and apply it in your own projects.
+
+Learn from it, add to it, and code on!
+
+If you have any questions, comments, or concerns, please leave them in the comments below!
+
+Signing off,
+
+Hussain
