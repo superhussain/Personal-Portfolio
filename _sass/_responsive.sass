@@ -11,7 +11,7 @@
     height: auto
     margin: 0 auto
     display: table
-    background-color: #fff
+    //background-color: #fff
     .avatar
       display: inline-block
       width: 45%
@@ -24,6 +24,8 @@
       float: right
       display: inline-block
       width: 55%
+      position: absolute
+      height: 100%
       .item
         font-size: 1em
       li
@@ -33,7 +35,7 @@
         border-bottom: 1px solid #ddd
   .tab-content
     position: relative
-    overflow: auto
+    //overflow: auto
     margin-left: 0px
     padding: 5% 5% 5% 5%
     width: 80%
@@ -63,8 +65,13 @@
 @media (max-width: 535px)
   .sidebar
     .avatar
-      width: 65%
+      width: 50%
     .navbar
-      width: 35%
+      width: 50%
   .tab-content
     font-size: 0.76em
+
+@media (max-width: 400px)
+  .sidebar
+    .navbar
+      position: initial
