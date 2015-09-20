@@ -120,32 +120,37 @@ window.onresize = function() {
 navBottomBorder();
 
 
+// change tab-content size on click
+$('.navbar .item').on('click', function () {
+
+  var tab = $(this).data("tab");
+  //console.log(tab);
+
+  var height = $("." + tab).height();
+  var heightPx = height + "px";
+  //console.log(heightPx);
+
+  if (window.innerWidth < 700) {
+    $(".tab-content").css({"min-height": heightPx});
+  }
+
+});
+
+});
+
+
 // change tab-content size on page load
 function tabContentSize() {
   var height = $(".home-tab").height();
   var heightPx = height + "px";
+  console.log(heightPx);
   if (window.innerWidth < 700) {
     $(".tab-content").css({"min-height": heightPx});
   }
 }
 
-tabContentSize();
+window.onload = function() {
+  tabContentSize();
+}
 
 
-// change tab-content size on click
-$('.navbar .item').on('click', function () {
-
-  var tab = $(this).data("tab");
-  console.log(tab);
-
-  var height = $("." + tab).height();
-  var heightPx = height + "px";
-  console.log(heightPx);
-
-  if (window.innerWidth < 700) {
-    $(".tab-content").css({"min-height": heightPx});
-  }
-
-});
-
-});
