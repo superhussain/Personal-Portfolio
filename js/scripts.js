@@ -121,14 +121,18 @@ navBottomBorder();
 
 
 // change tab-content size on page load
-var height = $(".home-tab").height();
-var heightPx = height + "px";
-if (window.innerWidth < 700) {
-  $(".tab-content").css({"min-height": heightPx});
-};
+function tabContentSize() {
+  var height = $(".home-tab").height();
+  var heightPx = height + "px";
+  if (window.innerWidth < 700) {
+    $(".tab-content").css({"min-height": heightPx});
+  }
+}
+
+tabContentSize();
+
 
 // change tab-content size on click
-
 $('.navbar .item').on('click', function () {
 
   var tab = $(this).data("tab");
