@@ -72,3 +72,4 @@ Hussain
 - [Week Zero - Discovery Week](http://hussainabbas.com/blog/polyphasic-adventures-0/)
 - [Week #1 - Intro Week](http://hussainabbas.com/blog/polyphasic-adventures-1/)
 - [Week #2 - Experiment Week](http://hussainabbas.com/blog/polyphasic-adventures-2)
+- [Week #3 - Re-evaluation Week](http://hussainabbas.com/blog/polyphasic-adventures-3)
