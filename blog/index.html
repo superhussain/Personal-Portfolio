@@ -9,7 +9,7 @@ layout: page
   <hr>
 
   <div class="post-list">
-    {% for post in site.posts limit:9 %}
+    {% for post in site.posts %}
       <div class="post" onclick="location.href='{{ post.url | prepend: site.baseurl }}';">
         <div class="post-img-wrap">
           <img src="/img/post/cover/{{post.cover}}" />
