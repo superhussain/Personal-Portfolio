@@ -153,4 +153,4 @@ window.onload = function() {
   tabContentSize();
 }
 
-
+$('.item').prepend('<div class="hover"><span></span><span></span><span></span><span></span><span></span></div>');
