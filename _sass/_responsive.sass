@@ -26,8 +26,11 @@
       width: 55%
       position: absolute
       height: 100%
-      .item
+      .item, .active
         font-size: 1em
+        &:before
+          content: ''
+          margin: 0
       li
         padding: 10px 90% 8px 10%
         width: 0%
