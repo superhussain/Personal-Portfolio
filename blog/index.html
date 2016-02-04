@@ -12,7 +12,7 @@ layout: page
     {% for post in site.posts %}
       <div class="post" onclick="location.href='{{ post.url | prepend: site.baseurl }}';">
         <div class="post-img-wrap">
-          <img src="/img/post/cover/{{post.cover}}" />
+          <img src="/assets/img/post/cover/{{post.cover}}" />
         </div>
         <div class="post-info">
           <h2>{{ post.title }}</h2>

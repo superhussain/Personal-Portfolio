@@ -5,42 +5,42 @@ $(function () {
 var currentTime = new Date().getHours();
 if (6 <= currentTime && currentTime < 9) {
   $("body").css({
-    "background": "url(/img/times/morning.png) no-repeat center center fixed",
+    "background": "url(/assets/img/times/morning.png) no-repeat center center fixed",
     "background-size": "cover"
   });
 } else if (9 <= currentTime && currentTime < 12) {
   $("body").css({
-    "background": "url(/img/times/late-morning.png) no-repeat center center fixed",
+    "background": "url(/assets/img/times/late-morning.png) no-repeat center center fixed",
     "background-size": "cover"
   });
 } else if (12 <= currentTime && currentTime < 15) {
   $("body").css({
-    "background": "url(/img/times/afternoon.png) no-repeat center center fixed",
+    "background": "url(/assets/img/times/afternoon.png) no-repeat center center fixed",
     "background-size": "cover"
   });
 } else if (15 <= currentTime && currentTime < 18) {
   $("body").css({
-    "background": "url(/img/times/late-afternoon.png) no-repeat center center fixed",
+    "background": "url(/assets/img/times/late-afternoon.png) no-repeat center center fixed",
     "background-size": "cover"
   });
 } else if (18 <= currentTime && currentTime < 21) {
   $("body").css({
-    "background": "url(/img/times/evening.png) no-repeat center center fixed",
+    "background": "url(/assets/img/times/evening.png) no-repeat center center fixed",
     "background-size": "cover"
   });
 } else if (21 <= currentTime && currentTime < 0) {
   $("body").css({
-    "background": "url(/img/times/late-evening.png) no-repeat center center fixed",
+    "background": "url(/assets/img/times/late-evening.png) no-repeat center center fixed",
     "background-size": "cover"
   });
 } else if (0 <= currentTime && currentTime < 3) {
   $("body").css({
-    "background": "url(/img/times/night.png) no-repeat center center fixed",
+    "background": "url(/assets/img/times/night.png) no-repeat center center fixed",
     "background-size": "cover"
   });
 } else {
   $("body").css({
-    "background": "url(/img/times/late-night.png) no-repeat center center fixed",
+    "background": "url(/assets/img/times/late-night.png) no-repeat center center fixed",
     "background-size": "cover"
   });
 }
