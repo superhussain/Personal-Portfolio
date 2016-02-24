@@ -1,6 +1,9 @@
 ---
 layout: page
 ---
+
+  <span class="back-home"><a href="/"><span data-title="&laquo; Back Home">&laquo; Back Home</span></a></span>
+
   <h1>
     <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
     <i class="fa fa-rss-square"></i></a> Blog
@@ -16,7 +19,7 @@ layout: page
         </div>
         <div class="post-info">
           <h2>{{ post.title }}</h2>
-          <p class="post-date">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
+          <p class="post-date">{{ post.date | date: "%b %-d, %Y" }}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
           <p class="post-description">{{ post.description }}</p>
         </div>
       </div>
