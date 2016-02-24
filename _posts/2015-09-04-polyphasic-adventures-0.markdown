@@ -12,7 +12,7 @@ A 19 year old by day, a learner, creator, designer, developer and **dabbler** by
 ----------
 
 ### My Incredible Discovery ###
-![DevTips](http://hussainabbas.com/img/post/polyphasic-adventures-0/devtips-banner.png)
+![DevTips](http://hussainabbas.com/assets/img/post/polyphasic-adventures-0/devtips-banner.png)
 
 Not too long ago I stumbled upon a YouTube channel called [Dev Tips For Designers](https://www.youtube.com/user/DevTipsForDesigners) which is run by [Travis Neilson](http://travisneilson.com/). He creates great quality videos on front-end development that always inspire me to do more and become a better designer. I watched many, if not all of his videos and fell in love with his welcoming and cheerful personality and decided to follow him on other platforms and look into more of his work -- in other words, I'm stalking him.
 
@@ -29,16 +29,16 @@ I decided I would try it out myself and see if it really does have all the great
 
 There are many different polyphasic sleep patterns such as Triphasic, Everyman, Uberman, Dymaxion, etc. Each one is structured differently as you can see from the graph below and have different benefits and risks to go along with them.
 
-![Polyphasic Sleep Patterns](http://hussainabbas.com/img/post/polyphasic-adventures-0/patterns.png)
+![Polyphasic Sleep Patterns](http://hussainabbas.com/assets/img/post/polyphasic-adventures-0/patterns.png)
 
 Sleep is separated into about five different parts, four Non-Rapid Eye Movement (NREM) and the last being Rapid Eye Movement (REM). REM is the most beneficial stage of sleep; it is when the brain is most active and is when dreaming occurs. REM is the only stage of sleep that is actually required to survive and function normally. The interesting part of all this is that you only spend 1 to 2 hours in this stage of sleep every night. The other 6 or so hours spent asleep every night are seemingly wasted.
 
-![Sleep Cycle](http://hussainabbas.com/img/post/polyphasic-adventures-0/sleep-stages.gif)
+![Sleep Cycle](http://hussainabbas.com/assets/img/post/polyphasic-adventures-0/sleep-stages.gif)
 
 Polyphasic sleeping forces you to focus more on REM which is a much more efficient way to sleep. You can read up more on the science behind polyphasic sleep and the different patterns [here](http://www.kratosguide.com/hack-your-brain-polyphasic-sleep/). The pattern I am trying is called the "Everyman".
 
 #### The "Everyman" Sleep Pattern ####
-![enter image description here](http://hussainabbas.com/img/post/polyphasic-adventures-0/everyman.jpg)
+![enter image description here](http://hussainabbas.com/assets/img/post/polyphasic-adventures-0/everyman.jpg)
 
 Where traditional polyphasic sleep is based solely on naps and getting the most amount of REM in as little time as possible, the Everyman pattern is much more flexible and allows you to stay in a more natural sleep cycle. The way it works is you have one core nap which can be from an hour to four and a series of naps to help you replenish the desired REM.
 

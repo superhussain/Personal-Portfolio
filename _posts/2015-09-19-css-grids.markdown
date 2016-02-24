@@ -9,7 +9,7 @@ cover: "css-grids.jpg"
 ---
 While wasting my day away on Facebook, I came across a post on the [Hackathon Hackers](https://www.facebook.com/groups/hackathonhackers/) group. This person was asking how he can make a pretty simple grid system without having to rely on libraries like [Bootstrap](http://getbootstrap.com/) or [Foundation](http://foundation.zurb.com/). This was what he was looking for...
 
-![Grid](http://hussainabbas.com/img/post/css-grids/grid.jpg)
+![Grid](http://hussainabbas.com/assets/img/post/css-grids/grid.jpg)
 
 Coming from years in the front-end, this was pretty simple for me to do so I decided I would make a pen for him so he could better understand how to do it himself. I honestly thought this was something many people already knew, but because it came up, I decided why not make a post about it?
 

@@ -13,7 +13,7 @@ In this post, I will run you through my personal portfolio from the inside and o
 ----------
 
 ### The Tools ###
-![Before and After](http://hussainabbas.com/img/post/website-overview/before-after.jpg)
+![Before and After](http://hussainabbas.com/assets/img/post/website-overview/before-after.jpg)
 
 I began this whole project with a desired layout in mind. The layout is very similar to the old design of my portfolio with a number of changes. Firstly, I didn't want to rely on UI libraries like bootstrap and instead do all of the CSS and JavaScript myself. This was for a couple of reasons. 1. I wanted the site to be as bare bones as possible and 2. I wanted to develop my own skills and test myself. The second main change was adding this blog to the website. This was something I was thinking about for a while and finally decided to get around to. I could have gone many routes for this, but chose to go as barebones as possible and have a static blog without needing a database. I came across a Ruby gem called [Jekyll](http://jekyllrb.com) that's purpose is to be a...
 
@@ -36,7 +36,7 @@ If you didn't catch them all, here is the toolset we used for this project:
 ----------
 
 ### Structure and Overview ###
-![Before and After](http://hussainabbas.com/img/post/website-overview/folder-structure.jpg)
+![Before and After](http://hussainabbas.com/assets/img/post/website-overview/folder-structure.jpg)
 
 If you take a look at the [Github repository](https://github.com/superhussain/Personal-Portfolio/) for this project, you will see a number of folders that may seem a little confusing at first, but it is very simple once you know your way around the structure.
 

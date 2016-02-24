@@ -9,7 +9,7 @@ cover: "brackets.jpg"
 ---
 As a person who works with code pretty much everyday, the development environment is a very crucial part of my workflow. In an industry where every minute matters, you have to discover the workflow that works for you and allows you to get your job done in as little time as possible. Because of that, I have been looking to extend my workflow tools recently to allow me to get the job done better and faster. One of the tools that I discovered was the infamous **Adobe Brackets**.
 
-![Brackets Logo](http://hussainabbas.com/img/post/editor-of-choice/brackets-logo.jpg)
+![Brackets Logo](http://hussainabbas.com/assets/img/post/editor-of-choice/brackets-logo.jpg)
 
 In my journey to find the editor that works best for me, I tried many different editors including but not limited to Sublime Text, Notepad++, Atom, Web Storm, Dreamweaver, and Aptana Studio. All of the mentioned editors are great in their own way and even better than Brackets in some aspects. I also have to mention I tried Brackets a while ago when it was in beta and did not like it very much. It wasn't very lightweight, was very buggy, and didn't have many extensions at the time. Because of my previous experience I was hesitant on trying it again, but now I am really glad that I did! Adobe did an incredible job fixing all of the things I didn't like about it and made it a real powerhouse in the web dev world!
 
@@ -28,7 +28,7 @@ But supporting the company isn't really enough for me to change my entire workfl
 Brackets is very closely integrated with other Adobe products as well which is a huge bonus for me. Being able to extract the styles from a Photoshop document and automatically generate CSS is insane and would save so much time in development. I already use Photoshop as part of my workflow so there is no change, just saving time.
 
 The one feature that pushed me to using Brackets as my "Editor of Choice" is the incredible Live Preview. As a front-end developer, There are things like LiveReload that work similar to this, but this is truly **live**. As I select an element in HTML, it changes in front of my eyes as I type into the editor. This makes working with HTML and CSS much easier and I can bring my designs to life much faster! As a big SASS user, there was the hurdle of processing the SASS into CSS and making live changes, but I got that to work by the help of an extension which I will cover below.
-![Brackets Slogan](http://hussainabbas.com/img/post/editor-of-choice/brackets-slogan.png)
+![Brackets Slogan](http://hussainabbas.com/assets/img/post/editor-of-choice/brackets-slogan.png)
 
 ----------
 

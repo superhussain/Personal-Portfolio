@@ -12,7 +12,7 @@ I know I called this post "My Web Dev Tools", but to be frank, I wouldn't call m
 ----------
 
 ### General ###
-![General](http://hussainabbas.com/img/post/web-dev-tools/general.jpg)
+![General](http://hussainabbas.com/assets/img/post/web-dev-tools/general.jpg)
 
 - [Google Chrome](http://www.google.com/chrome) - My web browser of choice. I love this browser most of all because it is always the most up-to date browser in terms of supporting certain CSS properties and it now supports ECMAScript 6 which is a nice bonus for me! Chrome also has the best developer tools in my opinion and I really love some of the features it has out of the box!
 - [OpenVPN](https://openvpn.net/index.php/open-source/downloads.html) - This is essential for me because I hardly go online without being on a VPN. I like knowing that I am at least somewhat anonymous while browsing the internet. With all these issues about internet privacy coming about, I want to take a step to help protect my identity online. I am with [nVPN](http://nvpn.net) but there are many other VPN service providers that are just as good.
@@ -26,7 +26,7 @@ I know I called this post "My Web Dev Tools", but to be frank, I wouldn't call m
 ----------
 
 ### Design ###
-![Design](http://hussainabbas.com/img/post/web-dev-tools/design.jpg)
+![Design](http://hussainabbas.com/assets/img/post/web-dev-tools/design.jpg)
 
 - Pen and Paper - As a big techie, you'd think I would use the computer for just about everything, right? Umm, no. For sketching and note-taking, I always go back to the good ol' pen and paper combo because it's faster and being able to feel the words you write or the sketches you make engraves it deeper into your brain and gives you more focus on what you're trying to do. For school, 90% of the time you would see me using a pen and a notebook to take my notes because it helps me remember better.
 - [Adobe Photoshop](http://www.adobe.com/products/photoshop.html) - My favorite designing tool by far. For any of my graphic or web design work, I would always use Photoshop because I am used to the shortcuts and I have made it my home! This is the honestly the only reason I always fall back to using Windows over any Linux distro (Fedora <3).
@@ -35,7 +35,7 @@ I know I called this post "My Web Dev Tools", but to be frank, I wouldn't call m
 ----------
 
 ### Development ###
-![Development](http://hussainabbas.com/img/post/web-dev-tools/development.jpg)
+![Development](http://hussainabbas.com/assets/img/post/web-dev-tools/development.jpg)
 
 - [Brackets](http://brackets.io) - My code editor of choice. I just love the look and feel of this editor compared to other editors. There are tonnes of great quality extensions that I can't live without but I'll save that for another post!
 - [Node.js](http://nodejs.org) - I use Node Package Manager (npm) for most of my development packages and it's something I've come to use a lot lately.
@@ -51,7 +51,7 @@ I know I called this post "My Web Dev Tools", but to be frank, I wouldn't call m
 ----------
 
 ### Gear ###
-![Custom Build PC](http://hussainabbas.com/img/post/web-dev-tools/pc.jpg)
+![Custom Build PC](http://hussainabbas.com/assets/img/post/web-dev-tools/pc.jpg)
 
 - Custom Built PC - Where I do most of my work. It's packed with...
   - AMD Athlon II X2 220 overclocked to 3.2 GHz
@@ -65,7 +65,7 @@ I know I called this post "My Web Dev Tools", but to be frank, I wouldn't call m
 
 ----------
 
-![The HackinBox](http://hussainabbas.com/img/post/web-dev-tools/hackinbox.jpg)
+![The HackinBox](http://hussainabbas.com/assets/img/post/web-dev-tools/hackinbox.jpg)
 
 - The HackinBox - My custom built hackintosh built in a cardboard box. It's packed with...
   - Intel Core 2 Duo E6850 overclocked to 3.2 GHz
@@ -78,7 +78,7 @@ I know I called this post "My Web Dev Tools", but to be frank, I wouldn't call m
 
 ----------
 
-![Custom Build PC](http://hussainabbas.com/img/post/web-dev-tools/vaio.jpg)
+![Custom Build PC](http://hussainabbas.com/assets/img/post/web-dev-tools/vaio.jpg)
 
 - Sony Vaio E Series
 - iPhone 3G
