@@ -9,7 +9,6 @@ layout: default
     <span class="blog-more"><a href="blog"><span data-title="&raquo; View More">&raquo; View More</span></a></span>
   </h4>
   <hr>
-
   <div class="post-list">
     {% for post in site.posts limit:9 %}
       <div class="view view-first">
@@ -19,11 +18,9 @@ layout: default
             <h2>{{ post.title }}</h2>
             <p class="post-date">{{ post.date | date: "%b %-d, %Y" }}</p>
             <p>{{ post.description }}</p>
-            <!--<a href="{{ post.url | prepend: site.baseurl }}" class="info">Read Post</a>-->
           </div>
         </a>
       </div>
     {% endfor %}
   </div>
-
 </div>
