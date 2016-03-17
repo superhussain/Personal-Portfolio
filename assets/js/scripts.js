@@ -126,7 +126,7 @@ $('.navbar .item').on('click', function () {
 
 // change tab-content size on page load
 function tabContentSize() {
-  var height = $(".home-tab").height();
+  var height = $(".home-tab").height() + 30;
   var heightPx = height + "px";
   console.log(heightPx);
   if (window.innerWidth < 700) {
@@ -134,8 +134,12 @@ function tabContentSize() {
   }
 }
 
-window.onload = function() {
-  tabContentSize();
-}
-
 $('.item').prepend('<div class="hover"><span></span><span></span><span></span><span></span><span></span></div>');
+
+$(window).on('scroll', function() {
+  tabContentSize();
+});
+
+jQuery(document).ready(function ($) {
+  tabContentSize();
+});
