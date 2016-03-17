@@ -1,5 +1,6 @@
 .sidebar
   width: 200px
+  height: 435px
   margin-top: -10px
   background: linear-gradient(#4E2574 0%, #4E2574 50%, #0E142C 50%, #0E142C 100%)
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3)
@@ -7,21 +8,25 @@
   position: fixed
 
   .avatar
-    margin-bottom: -3px
+    margin-bottom: -5px
     img
       width: 200px
 
 .navbar
+  list-style: none
+  height: 235px
+  overflow: hidden
+  display: flex
+  flex-direction: column
+  justify-content: space-around
   a
     text-decoration: none
-  list-style: none
-  #height: 246px
-  overflow: hidden
+    max-height: calc(100% / 6)
+    overflow: hidden
   .item
-    #height: 49.3px
     font-family: "munro_small"
     font-size: 1.3em
-    padding: 10.75px
+    padding: 10px
     padding-left: 30px
     display: block
     background: #0E142C

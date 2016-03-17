@@ -110,8 +110,14 @@ $('.navbar .item').on('click', function () {
 
   var tab = $(this).data("tab");
   //console.log(tab);
+  var height;
 
-  var height = $("." + tab).height() + 30;
+  if (['blog-tab','portfolio-tab','playground-tab'].indexOf(tab) > -1) {
+    height = $("." + tab).height() + 60;
+  } else {
+    height = $("." + tab).height() + 30;
+  }
+  
   var heightPx = height + "px";
   //console.log(heightPx);
 
@@ -136,9 +142,9 @@ function tabContentSize() {
 
 $('.item').prepend('<div class="hover"><span></span><span></span><span></span><span></span><span></span></div>');
 
-$(window).on('scroll', function() {
+window.onresize = function(event) {
   tabContentSize();
-});
+};
 
 jQuery(document).ready(function ($) {
   tabContentSize();

@@ -3,10 +3,6 @@
     font-family: 'munro_small'
     font-size: 30px
     color: #4e2574
-    .blog-more
-      float: right
-      font-size: 0.7em
-      margin-top: 6px
     i
       font-size: 22px
       color: #aea8d3
@@ -17,7 +13,16 @@
     border-top: 1px solid #ccc
     margin: 5px 0px 15px 0px
     padding: 0
-
+  .blog-more
+    position: absolute
+    font-size: 1.5em
+    font-weight: 900
+    right: 0
+    bottom: 0
+    z-index: 10
+    @media (max-width: 700px)
+      right: 0.5em
+      bottom: 1.75em
   .list .view-first .mask .post-date
     font-size: 10px
     color: #e0e0e0
