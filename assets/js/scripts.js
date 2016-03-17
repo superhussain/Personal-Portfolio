@@ -105,28 +105,13 @@ $('#shroomRand').on('click', function () {
 });
 
 
-// remove border bottom
-
-function navBottomBorder() {
-  if ($("body").width() < 683) {
-    $(".navbar a:last-child .item").css('border-bottom', 'none');
-  }
-}
-
-window.onresize = function() {
-  navBottomBorder();
-}
-
-navBottomBorder();
-
-
 // change tab-content size on click
 $('.navbar .item').on('click', function () {
 
   var tab = $(this).data("tab");
   //console.log(tab);
 
-  var height = $("." + tab).height();
+  var height = $("." + tab).height() + 30;
   var heightPx = height + "px";
   //console.log(heightPx);
 

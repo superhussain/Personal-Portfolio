@@ -1,6 +1,6 @@
 # Site settings
-title: Hussain Abbas
-email: hussain@hussainabbas.com
+title: Hussain's Dev Playground
+email: howdy@hussainabbas.com
 description: Dabbler of Everything Technology
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://hussainabbas.com" # the base hostname & protocol for your site

@@ -19,12 +19,21 @@
     padding: 0
   p
     font-family: "munroregular"
-    font-size: 1.03rem
+    font-size: 1.1rem
     color: #666
-    margin-bottom: 0.7rem
-    span
-      text-decoration: line-through
+    margin-bottom: 0.6rem
+    text-align: justify
+    strike
+      position: relative
+      display: inline-block
       color: #bbb
+      &::before
+        content: ''
+        border-bottom: 2px solid rgba(crimson,0.5)
+        width: 100%
+        position: absolute
+        right: 0
+        top: 50%
     em
       font-style: normal
       font-weight: 600
@@ -32,7 +41,7 @@
   #quotes
     color: #aaa
     text-align: center
-    font-size: 0.85rem
+    font-size: 0.95rem
   .shrooms
     width: 90px
     height: 25px
