@@ -13,6 +13,13 @@
   img
     position: absolute
     width: 200px
+    -moz-transform: scaleX(-1)
+    -o-transform: scaleX(-1)
+    -webkit-transform: scaleX(-1)
+    transform: scaleX(-1)
+    filter: FlipH
+    -webkit-filter: FlipH
+    -ms-filter: "FlipH"
     animation: clouds 20s linear infinite
   .cloud1
     top: 360px
