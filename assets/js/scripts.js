@@ -104,22 +104,12 @@ $(function() {
   $('.navbar .item').on('click', function() {
     tab = $(this).data("tab");
     var height;
-    if (['blog-tab', 'portfolio-tab', 'playground-tab'].indexOf(tab) > -1) {
-      height = $("." + tab).height() + 60;
-    } else {
-      height = $("." + tab).height() + 30;
-    }
-    var heightPx = height + "px";
-    if (window.innerWidth < 700) {
-      $(".tab-content").css({
-        "min-height": heightPx
-      });
-    }
+    tabContentSize();
   });
 
-  // change tab-content size on page load
+  // change tab-content size
   function tabContentSize() {
-    if (['blog-tab', 'portfolio-tab', 'playground-tab'].indexOf(tab) > -1) {
+    if (['blog-tab', 'portfolio-tab', 'playground-tab', 'contact-tab'].indexOf(tab) > -1) {
       height = $("." + tab).height() + 60;
     } else {
       height = $("." + tab).height() + 30;
