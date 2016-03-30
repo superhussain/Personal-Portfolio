@@ -1,53 +1,50 @@
-$(function () {
+$(function() {
+  /* Times Background */
+  var currentTime = new Date().getHours();
+  if (6 <= currentTime && currentTime < 9) {
+    $("body").css({
+      "background": "url(/assets/img/times/morning.png) no-repeat center center fixed",
+      "background-size": "cover"
+    });
+  } else if (9 <= currentTime && currentTime < 12) {
+    $("body").css({
+      "background": "url(/assets/img/times/late-morning.png) no-repeat center center fixed",
+      "background-size": "cover"
+    });
+  } else if (12 <= currentTime && currentTime < 15) {
+    $("body").css({
+      "background": "url(/assets/img/times/afternoon.png) no-repeat center center fixed",
+      "background-size": "cover"
+    });
+  } else if (15 <= currentTime && currentTime < 18) {
+    $("body").css({
+      "background": "url(/assets/img/times/late-afternoon.png) no-repeat center center fixed",
+      "background-size": "cover"
+    });
+  } else if (18 <= currentTime && currentTime < 21) {
+    $("body").css({
+      "background": "url(/assets/img/times/evening.png) no-repeat center center fixed",
+      "background-size": "cover"
+    });
+  } else if (21 <= currentTime && currentTime < 0) {
+    $("body").css({
+      "background": "url(/assets/img/times/late-evening.png) no-repeat center center fixed",
+      "background-size": "cover"
+    });
+  } else if (0 <= currentTime && currentTime < 3) {
+    $("body").css({
+      "background": "url(/assets/img/times/night.png) no-repeat center center fixed",
+      "background-size": "cover"
+    });
+  } else {
+    $("body").css({
+      "background": "url(/assets/img/times/late-night.png) no-repeat center center fixed",
+      "background-size": "cover"
+    });
+  }
 
-/* Times Background */
-
-var currentTime = new Date().getHours();
-if (6 <= currentTime && currentTime < 9) {
-  $("body").css({
-    "background": "url(/assets/img/times/morning.png) no-repeat center center fixed",
-    "background-size": "cover"
-  });
-} else if (9 <= currentTime && currentTime < 12) {
-  $("body").css({
-    "background": "url(/assets/img/times/late-morning.png) no-repeat center center fixed",
-    "background-size": "cover"
-  });
-} else if (12 <= currentTime && currentTime < 15) {
-  $("body").css({
-    "background": "url(/assets/img/times/afternoon.png) no-repeat center center fixed",
-    "background-size": "cover"
-  });
-} else if (15 <= currentTime && currentTime < 18) {
-  $("body").css({
-    "background": "url(/assets/img/times/late-afternoon.png) no-repeat center center fixed",
-    "background-size": "cover"
-  });
-} else if (18 <= currentTime && currentTime < 21) {
-  $("body").css({
-    "background": "url(/assets/img/times/evening.png) no-repeat center center fixed",
-    "background-size": "cover"
-  });
-} else if (21 <= currentTime && currentTime < 0) {
-  $("body").css({
-    "background": "url(/assets/img/times/late-evening.png) no-repeat center center fixed",
-    "background-size": "cover"
-  });
-} else if (0 <= currentTime && currentTime < 3) {
-  $("body").css({
-    "background": "url(/assets/img/times/night.png) no-repeat center center fixed",
-    "background-size": "cover"
-  });
-} else {
-  $("body").css({
-    "background": "url(/assets/img/times/late-night.png) no-repeat center center fixed",
-    "background-size": "cover"
-  });
-}
-
-/* Quotes */
-
-var sentences = [
+  /* Quotes */
+  var sentences = [
     '"Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose. You are already naked. There is no reason not to follow your heart." - Steve Jobs',
     '"Quality is more important than quantity. One home run is much better than two doubles." - Steve Jobs',
     '"Any sufficiently advanced technology is indistinguishable from magic." - Arthur C. Clarke',
@@ -71,81 +68,78 @@ var sentences = [
     '"It\'s really hard to design products by focus groups. A lot of times, people don\'t know what they want until you show it to them." - Steve Jobs',
     '"To design something really well, you have to get it. You have to really grok what it\'s all about." - Steve Jobs',
     '"Design is not just what it looks like and feels like. Design is how it works." - Steve Jobs'
-];
+  ];
 
-var indexNum = Math.floor(Math.random() * sentences.length);
-var rand = sentences[indexNum];
-$('#quotes').text(rand);
-
-
-// Shrooms
-
-$('#shroomNext').on('click', function () {
-  indexNum++;
-  if (indexNum == sentences.length) {
-    indexNum = 0;
-  }
-  rand = sentences[indexNum];
+  var indexNum = Math.floor(Math.random() * sentences.length);
+  var rand = sentences[indexNum];
   $('#quotes').text(rand);
-});
 
-$('#shroomPrev').on('click', function () {
-  indexNum--;
-  if (indexNum == 0) {
-    indexNum = sentences.length;
+  // Shrooms
+  $('#shroomNext').on('click', function() {
+    indexNum++;
+    if (indexNum == sentences.length) {
+      indexNum = 0;
+    }
+    rand = sentences[indexNum];
+    $('#quotes').text(rand);
+  });
+  $('#shroomPrev').on('click', function() {
+    indexNum--;
+    if (indexNum === 0) {
+      indexNum = sentences.length;
+    }
+    rand = sentences[indexNum];
+    $('#quotes').text(rand);
+  });
+  $('#shroomRand').on('click', function() {
+    indexNum = Math.floor(Math.random() * sentences.length);
+    rand = sentences[indexNum];
+    $('#quotes').text(rand);
+  });
+
+  // global tab variable
+  var tab = "home-tab";
+
+  // change tab-content size on click
+  $('.navbar .item').on('click', function() {
+    tab = $(this).data("tab");
+    var height;
+    if (['blog-tab', 'portfolio-tab', 'playground-tab'].indexOf(tab) > -1) {
+      height = $("." + tab).height() + 60;
+    } else {
+      height = $("." + tab).height() + 30;
+    }
+    var heightPx = height + "px";
+    if (window.innerWidth < 700) {
+      $(".tab-content").css({
+        "min-height": heightPx
+      });
+    }
+  });
+
+  // change tab-content size on page load
+  function tabContentSize() {
+    if (['blog-tab', 'portfolio-tab', 'playground-tab'].indexOf(tab) > -1) {
+      height = $("." + tab).height() + 60;
+    } else {
+      height = $("." + tab).height() + 30;
+    }
+    var heightPx = height + "px";
+    if (window.innerWidth < 700) {
+      $(".tab-content").css({
+        "min-height": heightPx
+      });
+    }
   }
-  rand = sentences[indexNum];
-  $('#quotes').text(rand);
-});
 
-$('#shroomRand').on('click', function () {
-  indexNum = Math.floor(Math.random() * sentences.length);
-  rand = sentences[indexNum];
-  $('#quotes').text(rand);
-});
+  window.onresize = function(event) {
+    tabContentSize();
+  };
 
+  setTimeout(function() {
+    tabContentSize();
+  }, 500);
 
-// change tab-content size on click
-$('.navbar .item').on('click', function () {
-
-  var tab = $(this).data("tab");
-  //console.log(tab);
-  var height;
-
-  if (['blog-tab','portfolio-tab','playground-tab'].indexOf(tab) > -1) {
-    height = $("." + tab).height() + 60;
-  } else {
-    height = $("." + tab).height() + 30;
-  }
-  
-  var heightPx = height + "px";
-  //console.log(heightPx);
-
-  if (window.innerWidth < 700) {
-    $(".tab-content").css({"min-height": heightPx});
-  }
-
-});
-
-});
-
-
-// change tab-content size on page load
-function tabContentSize() {
-  var height = $(".home-tab").height() + 30;
-  var heightPx = height + "px";
-  console.log(heightPx);
-  if (window.innerWidth < 700) {
-    $(".tab-content").css({"min-height": heightPx});
-  }
-}
-
-$('.item').prepend('<div class="hover"><span></span><span></span><span></span><span></span><span></span></div>');
-
-window.onresize = function(event) {
-  tabContentSize();
-};
-
-jQuery(document).ready(function ($) {
-  tabContentSize();
+  // navbar hover
+  $('.item').prepend('<div class="hover"><span></span><span></span><span></span><span></span><span></span></div>');
 });
