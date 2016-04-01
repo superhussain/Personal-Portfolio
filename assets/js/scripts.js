@@ -109,10 +109,10 @@ $(function() {
 
   // change tab-content size
   function tabContentSize() {
-    if (['blog-tab', 'portfolio-tab', 'playground-tab', 'contact-tab'].indexOf(tab) > -1) {
-      height = $("." + tab).height() + 60;
-    } else {
+    if (['profile-tab'].indexOf(tab) > -1) {
       height = $("." + tab).height() + 30;
+    } else {
+      height = $("." + tab).height() + 60;
     }
     var heightPx = height + "px";
     if (window.innerWidth < 700) {
@@ -123,7 +123,13 @@ $(function() {
   }
 
   window.onresize = function(event) {
-    tabContentSize();
+    if (window.innerWidth < 700) {
+      tabContentSize();
+    } else {
+      $(".tab-content").css({
+        "min-height": "355px"
+      });
+    }
   };
 
   setTimeout(function() {
