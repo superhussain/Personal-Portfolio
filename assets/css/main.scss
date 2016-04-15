@@ -1,6 +1,6 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
+//---
+//# Only the main Sass file needs front matter (the dashes are enough)
+//---
 @charset "utf-8";
 
 
@@ -46,23 +46,23 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-  "bourbon/bourbon",
-  "normalize",
-  "fonts",
-  "body",
-  "clouds",
-  "sidebar",
-  "post",
-  "blog",
-  "_tabs/home",
-  "_tabs/blog",
-  "_tabs/profile",
-  "_tabs/portfolio",
-  "_tabs/playground",
-  "_tabs/contact",
-  "tn-hover",
-  "link-hover",
-  "responsive",
-  "navbar-btn",
-  "list"
+  "../../_sass/bourbon/bourbon",
+  "../../_sass/normalize",
+  "../../_sass/fonts",
+  "../../_sass/body",
+  "../../_sass/clouds",
+  "../../_sass/sidebar",
+  "../../_sass/post",
+  "../../_sass/blog",
+  "../../_sass/_tabs/home",
+  "../../_sass/_tabs/blog",
+  "../../_sass/_tabs/profile",
+  "../../_sass/_tabs/portfolio",
+  "../../_sass/_tabs/playground",
+  "../../_sass/_tabs/contact",
+  "../../_sass/tn-hover",
+  "../../_sass/link-hover",
+  "../../_sass/responsive",
+  "../../_sass/navbar-btn",
+  "../../_sass/list"
 ;
