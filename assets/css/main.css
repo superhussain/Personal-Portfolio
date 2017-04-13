@@ -1215,8 +1215,7 @@ footer {
     position: relative;
     font-size: 15px;
     padding: 5px;
-    background: rgba(0, 0, 0, 0.8);
-    margin: 10px 0 0 0; }
+    background: rgba(0, 0, 0, 0.8); }
   .view p {
     font-size: 12px;
     position: relative;
@@ -1275,7 +1274,8 @@ footer {
 .view-first:hover .mask {
   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
   filter: alpha(opacity=100);
-  opacity: 1; }
+  opacity: 1;
+  padding-top: 10px; }
 
 .view-first:hover h2, .view-first:hover p, .view-first:hover a.info {
   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
@@ -1531,13 +1531,14 @@ footer {
   -ms-flex-line-pack: center;
       align-content: center;
   margin: -30px;
+  margin-right: -32px;
   overflow: hidden;
   position: relative; }
   .list .view {
-    width: 33.33%;
+    width: 33.33333%;
     height: auto;
     margin: 0;
-    margin-bottom: 0.1%; }
+    margin-bottom: -1px; }
     .list .view img {
       width: 100%; }
     .list .view .mask, .list .view .content {

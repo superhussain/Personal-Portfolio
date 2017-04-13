@@ -4,7 +4,7 @@
   "description": "Hussain Abbas - Dabbler of Everything Technology", 
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node ./node_modules/gulp/bin/gulp.js"
   },
   "author": "Hussain Abbas",
   "license": "ISC",
@@ -27,5 +27,5 @@
   "bugs": {
     "url": "https://github.com/superhussain/Personal-Portfolio"
   },
-  "homepage": "http://hussainabbas.com"
+  "homepage": "https://www.hussainabbas.com"
 }

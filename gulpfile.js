@@ -13,42 +13,42 @@ var messages = {
  * Build the Jekyll Site
  */
 gulp.task('jekyll-build', function (done) {
-    browserSync.notify(messages.jekyllBuild);
-    return cp.spawn( jekyll , ['build'], {stdio: 'inherit'})
-        .on('close', done);
+  browserSync.notify(messages.jekyllBuild);
+  return cp.spawn( jekyll , ['build'], {stdio: 'inherit'})
+    .on('close', done);
 });
 
 /**
  * Rebuild Jekyll & do page reload
  */
 gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
-    browserSync.reload();
+  browserSync.reload();
 });
 
 /**
  * Wait for jekyll-build, then launch the Server
  */
 gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
-    browserSync({
-        server: {
-            baseDir: '_site'
-        }
-    });
+  browserSync({
+    server: {
+      baseDir: '_site'
+    }
+  });
 });
 
 /**
  * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
  */
 gulp.task('sass', function () {
-    return gulp.src('assets/css/main.scss')
-        .pipe(sass({
-            includePaths: ['scss'],
-            onError: browserSync.notify
-        }))
-        .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
-        .pipe(gulp.dest('_site/assets/css'))
-        .pipe(browserSync.reload({stream:true}))
-        .pipe(gulp.dest('assets/css'));
+  return gulp.src('assets/css/main.scss')
+    .pipe(sass({
+      includePaths: ['scss'],
+      onError: browserSync.notify
+    }))
+    .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
+    .pipe(gulp.dest('_site/assets/css'))
+    .pipe(browserSync.reload({stream:true}))
+    .pipe(gulp.dest('assets/css'));
 });
 
 /**
@@ -56,8 +56,8 @@ gulp.task('sass', function () {
  * Watch html/md files, run jekyll & reload BrowserSync
  */
 gulp.task('watch', function () {
-    gulp.watch('_sass/**/*', ['sass']);
-    gulp.watch(['*.html', '_layouts/*.html', '_posts/*', '_includes/*'], ['jekyll-rebuild']);
+  gulp.watch('_sass/**/*', ['sass']);
+  gulp.watch(['*.html', '_layouts/*.html', '_posts/*', '_includes/*', 'assets/js/*'], ['jekyll-rebuild']);
 });
 
 /**
