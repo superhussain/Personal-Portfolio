@@ -1,9 +1,9 @@
 # Site settings
-title: Hussain's Dev Playground
+title: Hussain Abbas | Front-End Engineer + Architect
 email: howdy@hussainabbas.com
-description: Dabbler of Everything Technology
+description: The portfolio site of Hussain Abbas, Front-End Engineer and Architect at Keyhole.co
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://hussainabbas.com" # the base hostname & protocol for your site
+url: "https://www.hussainabbas.com" # the base hostname & protocol for your site
 
 # Build settings
 highlighter: pygments
