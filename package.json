@@ -1,7 +1,7 @@
 {
   "name": "hussainabbas.com",
   "version": "1.0.0",
-  "description": "Hussain Abbas - Dabbler of Everything Technology", 
+  "description": "Hussain Abbas - Dabbler of Everything Technology",
   "main": "gulpfile.js",
   "scripts": {
     "dev": "node ./node_modules/gulp/bin/gulp.js"
