@@ -585,7 +585,6 @@ footer {
     font-family: "uni0553";
     font-size: .85em;
     font-weight: 900;
-    text-transform: uppercase;
     padding: 10px;
     padding-left: 30px;
     display: block;
@@ -878,7 +877,6 @@ footer {
         .page-container .post-list .post .post-info .post-date {
           color: rgba(78, 37, 116, 0.5);
           font-family: "uni0553";
-          text-transform: uppercase;
           font-weight: 900;
           margin-top: 5px;
           font-size: .85em; }
@@ -1022,7 +1020,6 @@ footer {
 
 .blog-tab h4 {
   font-family: 'uni0553';
-  text-transform: uppercase;
   font-size: 1.35rem;
   color: #4e2574; }
   .blog-tab h4 i {
@@ -1070,7 +1067,6 @@ footer {
   font-size: 1.15rem; }
   .profile-tab h4 {
     font-family: 'uni0553';
-    text-transform: uppercase;
     font-size: 1.35rem;
     color: #4e2574; }
     .profile-tab h4 i {
@@ -1097,7 +1093,6 @@ footer {
     text-align: center;
     font-family: "uni0553";
     font-weight: 900;
-    text-transform: uppercase;
     color: #aaa; }
   .profile-tab .icon-wrap {
     height: 300px;
@@ -1124,7 +1119,6 @@ footer {
         font-style: normal;
         font-family: "uni0553";
         font-weight: 900;
-        text-transform: uppercase;
         display: block;
         margin: 0.3em 0; }
       .profile-tab .icon-wrap a:hover {
@@ -1134,7 +1128,6 @@ footer {
 
 .portfolio-tab h4 {
   font-family: 'uni0553';
-  text-transform: uppercase;
   font-size: 1.35rem;
   color: #4e2574; }
   .portfolio-tab h4 i {
@@ -1151,7 +1144,6 @@ footer {
 
 .playground-tab h4 {
   font-family: 'uni0553';
-  text-transform: uppercase;
   font-size: 1.35rem;
   color: #4e2574; }
   .playground-tab h4 i {
@@ -1173,7 +1165,6 @@ footer {
       font-size: 1em; } }
   .contact-tab h3 {
     font-family: 'uni0553';
-    text-transform: uppercase;
     font-size: 1.35rem;
     color: #4e2574; }
   .contact-tab p {
@@ -1238,7 +1229,6 @@ footer {
     position: relative; }
   .view h2 {
     font-family: "uni0553";
-    text-transform: uppercase;
     font-weight: 900;
     color: #fff;
     text-align: center;
